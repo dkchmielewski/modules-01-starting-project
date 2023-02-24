@@ -1,5 +1,6 @@
 import Cmp, { doSomething } from './Component.js';
 
+console.log('Tooltip running');
 export class Tooltip extends Cmp {
   constructor(closeNotifierFunction, text, hostElementId) {
     super(hostElementId);
