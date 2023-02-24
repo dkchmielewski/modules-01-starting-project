@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dkchmielewski/modules-01-starting-project/issues"
   },
-  "homepage": "https://github.com/dkchmielewski/modules-01-starting-project#readme"
+  "homepage": "https://github.com/dkchmielewski/modules-01-starting-project#readme",
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
 }
