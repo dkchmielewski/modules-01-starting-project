@@ -23,8 +23,9 @@ class App {
     const analyticsScript = document.createElement('script');
     analyticsScript.src = 'assets/scripts/Utility/Analytics.js';
     analyticsScript.defer = true;
-    document.head.append(analyticsScript);
+		document.head.append(analyticsScript);
   }
 }
 
+// eslint-disable-next-line linebreak-style
 App.init();
